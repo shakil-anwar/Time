@@ -94,14 +94,14 @@ int minute(time_t t) { // the minute for the given time
   return tm.Minute;  
 }
 
-int second() {
-  return second(now()); 
-}
+// int second() {
+//   return second(now()); 
+// }
 
-int second(time_t t) {  // the second for the given time
-  refreshCache(t);
-  return tm.Second;
-}
+// int second(time_t t) {  // the second for the given time
+//   refreshCache(t);
+//   return tm.Second;
+// }
 
 int day(){
   return(day(now())); 
